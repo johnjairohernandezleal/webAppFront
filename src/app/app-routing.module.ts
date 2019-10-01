@@ -19,6 +19,24 @@ const routes: Routes = [
       }
     ]},
   {
+    path: 'pages',
+    component: TemplateComponent,
+    children: [
+      {
+        path: 'academico',
+        loadChildren: './pages/academico/academico.module#AcademicoModule'
+      }
+    ]},
+  {
+    path: 'pages',
+    component: TemplateComponent,
+    children: [
+      {
+        path: 'administracion',
+        loadChildren: './pages/administracion/administracion.module#AdministracionModule'
+      }
+    ]},
+  {
     path: '**',
     component: NotFoundComponent
   }
