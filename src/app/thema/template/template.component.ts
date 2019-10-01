@@ -67,7 +67,7 @@ export class TemplateComponent implements OnInit {
           },
           {
             descripcion: 'Estudiantes',
-            link: '/pages/academico/estudiante',
+            link: '/pages/academico/estudiantes',
           },
           {
             descripcion: 'Grados',
