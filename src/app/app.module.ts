@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { NotFoundComponent } from './shared/not-found/not-found.component';
 import { TemplateComponent } from './thema/template/template.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
-    TemplateComponent
+    TemplateComponent,
   ],
   imports: [
     BrowserModule,

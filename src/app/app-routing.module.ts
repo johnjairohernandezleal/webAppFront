@@ -4,6 +4,7 @@ import {NotFoundComponent} from './shared/not-found/not-found.component';
 import {TemplateComponent} from './thema/template/template.component';
 
 
+// @ts-ignore
 const routes: Routes = [
   {
     path: 'auth',
